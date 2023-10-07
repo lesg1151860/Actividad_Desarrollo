@@ -7,12 +7,10 @@
 .btnClave{
     align-items: center;
 }
-
 div{
     margin: 45px;
     text-align: center;
 }
-
 button[type="submit"]{
     align-items: center;
     background-color: #3364FF;
@@ -23,7 +21,6 @@ button[type="submit"]{
     border-color: #3364FF;
     width: 200px;
 }
-
 input[type="password"]{
     border: none;
     font-size: 16px;
@@ -36,11 +33,14 @@ input[type="password"]{
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
     margin-bottom: 30px;
   }
-
 a{
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     text-decoration: none;
-    color: white;
+    color: white;  
 }
+a:hover{
+    color: black;  
+  }
 
 #inner {
     margin: 0 auto;
@@ -57,37 +57,34 @@ a{
 }
 
 #Btn_Cancelar {
-    background-color: #3C3D40;
-    border-color: #3C3D40;
+    background-color: #424242;
+    border-color: #424242;
     border-radius: 2px 2px 2px 30px;
 }
 #Btn_CancelarOpe{
-    background-color: #3C3D40;
-    border-color: #3C3D40;
+    background-color: #424242;
+    border-color: #424242;
     border-radius: 2px 30px 2px 2px;
     
 }
 
 #Btn_Otro_Valor{
-    background-color: #3C3D40;
-    border-color: #3C3D40;
+    background-color: #424242;
+    border-color: #424242;
     border-radius: 2px 30px 2px 2px;
 }
 #BtnsIzqu{
     
     border-radius: 2px 2px 2px 30px;
 }
-
 #BtnsDerec{
     
     border-radius: 2px 30px 2px 2px;
 }
-
 #BtnsClave{
     border-radius: 2px 30px 2px 30px;
     width: 75px;
 }
-
 #divClave{
     display: block;
     margin: auto;
@@ -95,8 +92,6 @@ a{
     text-align: center;
     
 }
-
-
 /*@media screen and (max-width: 480px) {
   #inner {
     width: calc(100% - 80px);
