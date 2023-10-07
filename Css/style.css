@@ -1,6 +1,11 @@
+.containerRetiro,.containerOperaciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div{
-    
-    margin: 75px;
+    margin: 45px;
 }
 
 button[type="submit"]{
