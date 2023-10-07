@@ -1,11 +1,16 @@
-.containerRetiro,.containerOperaciones{
+.containerRetiro,.containerOperaciones, .containerClave{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
+}
+.btnClave{
+    align-items: center;
 }
 
 div{
     margin: 45px;
+    text-align: center;
 }
 
 button[type="submit"]{
@@ -18,6 +23,19 @@ button[type="submit"]{
     border-color: #3364FF;
     width: 200px;
 }
+
+input[type="password"]{
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 20%;
+    color: #64696d;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+  }
 
 a{
     text-decoration: none;
@@ -34,19 +52,26 @@ a{
     }
 
 #im2{
-    height: 100px;
-    width: 100px;
-    align-items: end;
+    height: 100%;
+    width: 100%;
 }
 
 #Btn_Cancelar {
     background-color: #3C3D40;
     border-color: #3C3D40;
+    border-radius: 2px 2px 2px 30px;
+}
+#Btn_CancelarOpe{
+    background-color: #3C3D40;
+    border-color: #3C3D40;
+    border-radius: 2px 30px 2px 2px;
+    
 }
 
 #Btn_Otro_Valor{
     background-color: #3C3D40;
     border-color: #3C3D40;
+    border-radius: 2px 30px 2px 2px;
 }
 #BtnsIzqu{
     
@@ -58,6 +83,18 @@ a{
     border-radius: 2px 30px 2px 2px;
 }
 
+#BtnsClave{
+    border-radius: 2px 30px 2px 30px;
+    width: 75px;
+}
+
+#divClave{
+    display: block;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    
+}
 
 
 /*@media screen and (max-width: 480px) {
