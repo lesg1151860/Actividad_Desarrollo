@@ -1,13 +1,55 @@
-
 div{
     
     margin: 75px;
 }
-.Btn_Inic_Transacc{
+
+button[type="submit"]{
     align-items: center;
-    background-color: blue; 
+    background-color: #3364FF;
     color: white;
     font-size: 16px;
     padding: 5px 5px;
-    border-radius: 30px;
+    border-radius: 50px 10px 50px 10px;
+    border-color: #3364FF;
+    width: 200px;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#inner {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 40px;
+    }
+
+#im2{
+    height: 100px;
+    width: 100px;
+    align-items: end;
+}
+
+#Btn_Cancelar{
+    background-color: #3C3D40;
+    border-color: #3C3D40;
+}
+
+
+
+
+/*@media screen and (max-width: 480px) {
+  #inner {
+    width: calc(100% - 80px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }*/
