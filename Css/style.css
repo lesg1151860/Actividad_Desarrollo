@@ -34,11 +34,24 @@ a{
     align-items: end;
 }
 
-#Btn_Cancelar{
+#Btn_Cancelar {
     background-color: #3C3D40;
     border-color: #3C3D40;
 }
 
+#Btn_Otro_Valor{
+    background-color: #3C3D40;
+    border-color: #3C3D40;
+}
+#BtnsIzqu{
+    
+    border-radius: 2px 2px 2px 30px;
+}
+
+#BtnsDerec{
+    
+    border-radius: 2px 30px 2px 2px;
+}
 
 
 
