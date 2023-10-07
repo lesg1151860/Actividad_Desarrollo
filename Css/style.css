@@ -1,3 +1,9 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .containerRetiro,.containerOperaciones, .containerClave{
     display: flex;
     align-items: center;
@@ -41,7 +47,6 @@ a{
 a:hover{
     color: black;  
   }
-
 #inner {
     margin: 0 auto;
     padding: 0 20px;
@@ -50,12 +55,10 @@ a:hover{
     border-radius: 10px;
     padding: 40px;
     }
-
 #im2{
     height: 100%;
     width: 100%;
 }
-
 #Btn_Cancelar {
     background-color: #424242;
     border-color: #424242;
@@ -67,7 +70,6 @@ a:hover{
     border-radius: 2px 30px 2px 2px;
     
 }
-
 #Btn_Otro_Valor{
     background-color: #424242;
     border-color: #424242;
@@ -89,17 +91,5 @@ a:hover{
     display: block;
     margin: auto;
     padding: 1%;
-    text-align: center;
-    
+    text-align: center;    
 }
-/*@media screen and (max-width: 480px) {
-  #inner {
-    width: calc(100% - 80px);
-  }
-}
-
-@media only screen and (max-width: 480px) {
-    img {
-      width: 100%;
-    }
-  }*/
