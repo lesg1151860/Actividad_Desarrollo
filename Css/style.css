@@ -47,14 +47,14 @@ a{
 a:hover{
     color: black;  
   }
-#inner {
+#inner{
     margin: 0 auto;
     padding: 0 20px;
     width: 50%;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 40px;
-    }
+}
 #im2{
     height: 100%;
     width: 100%;
